@@ -1,7 +1,11 @@
+/*Abaixo está uma variavel no CSS no arquivo raiz(Cor raiz de todo meu site)*/
+
 :root {
     --vermelho:#E50914;
     --preta:#141414;
 }
+
+/*O Comando abaixo reseta o CSS*/
 
 *{
     margin: 0;
@@ -44,11 +48,13 @@ header nav a:hover {
 /*filme principal*/
 
 .filme-principal {
-    font-size: 16px;
+    /*Tamanho da fonte do nome principal do filme*/
+    font-size:16px;
     background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)), url('/img/capa-house02.jpg');
 
-    height: 600px;
-    background-size: cover;
+    /* Tamanho da caixa*/
+    height:600px;
+    background-size:cover;
 
     display: flex;
     flex-direction: column;
@@ -87,4 +93,12 @@ header nav a:hover {
 
 .botao i{
     margin-right: 8px;
+}
+
+.container {
+    margin-left: 20px;
+}
+
+.filme-principal .container{
+    width: 70%;
 }
